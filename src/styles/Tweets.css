@@ -1,0 +1,30 @@
+.tweets-minicomponent {
+  text-align: left;
+  margin-bottom: 40px;
+  width: 340px;
+}
+
+.account-name {
+  font-size: 16px;
+  color: #4a2511;
+  font-weight: bold;
+}
+
+.id-component {
+  display: flex;
+  justify-content: space-between;
+  color: #4a2511;
+  margin-bottom: 20px;
+}
+
+.tweet {
+  color: white;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+.retweet {
+  font-size: 14px;
+  color: #4a2511;
+  font-weight: bold;
+}

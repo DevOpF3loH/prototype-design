@@ -1,0 +1,22 @@
+.articles-component {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.articles-title {
+  text-align: left;
+  margin-bottom: 10px;
+  color: #4a2511;
+}
+
+.date {
+  color: #a9a9a9;
+  text-align: left;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.articles-paragraph {
+  color: black;
+  font-size: 15px;
+}

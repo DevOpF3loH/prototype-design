@@ -1,0 +1,31 @@
+.video-container {
+  text-align: left;
+  width: 150px;
+}
+
+.video-img {
+  width: 150px;
+  height: 100px;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.icon-container {
+  background-color: gainsboro;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 76px;
+}
+
+.video-title {
+  color: orangered;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+
+.video-category {
+  color: white;
+  font-size: 12px;
+}

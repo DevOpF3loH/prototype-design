@@ -1,0 +1,97 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  width: 150px;
+  height: 150px;
+}
+
+.buttons {
+  border: none;
+  outline: none;
+  background-color: white;
+  font-size: medium;
+  color: #a9a9a9;
+  font-weight: bold;
+  padding-bottom: 2px;
+}
+
+.buttons:hover {
+  cursor: pointer;
+  color: red;
+  border-bottom: 2px solid black;
+}
+
+.buttons:active {
+  color: aqua;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.links-header {
+  width: 80%;
+  align-items: center;
+}
+
+.login-nav {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+.login {
+  border: none;
+  outline: none;
+  background-color: white;
+  font-size: 15px;
+  color: #080402;
+}
+
+.login:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.login:active {
+  color: aqua;
+}
+
+.vl {
+  border-left: 2px solid black;
+  height: 18px;
+}
+
+.login-box {
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.foot-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.foot-logo:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2) !important;
+}
+
+hr {
+  position: relative;
+  border: none;
+  height: 3px;
+  background: #a9a9a9;
+}

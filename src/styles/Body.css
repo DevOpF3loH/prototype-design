@@ -1,0 +1,562 @@
+.main-body {
+  border: 1px solid #a9a9a9;
+  margin-top: 30px;
+  border-top: 3px solid #4a2511;
+  padding: 0px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: (4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-areas:
+    "one one one two "
+    "one one one two "
+    "one one one two "
+    "one one one two "
+    "three three four five "
+    "three three four five "
+    "six six four five "
+    "six six four five "
+    "six six seven seven "
+    "six six eight nine "
+    "six six eight nine "
+    "six six ten eleven "
+    "six six ten eleven "
+    "twelve twelve ten thirteen "
+    "fourteen fourteen ten thirteen "
+    "fourteen fourteen ten thirteen "
+    "fifteen fifteen ten thirteen "
+    "sixteen sixteen ten thirteen "
+    "sixteen sixteen ten thirteen "
+    "sixteen sixteen ten thirteen "
+    "seventeen seventeen eighteen thirteen "
+    "seventeen seventeen eighteen thirteen "
+    "seventeen seventeen eighteen thirteen ";
+}
+
+.main-body > * {
+  border: 1px solid #a9a9a9;
+}
+
+.one {
+  grid-area: one;
+  padding: 20px;
+}
+
+.two {
+  grid-area: two;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.three {
+  grid-area: three;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.four {
+  grid-area: four;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.five {
+  grid-area: five;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.six {
+  grid-area: six;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.seven {
+  grid-area: seven;
+  padding: 10px;
+}
+
+.eight {
+  grid-area: eight;
+  padding: 10px;
+}
+
+.nine {
+  grid-area: nine;
+  padding: 20px;
+}
+
+.ten {
+  grid-area: ten;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.eleven {
+  grid-area: eleven;
+  padding: 10px;
+}
+
+.twelve {
+  grid-area: twelve;
+  padding: 10px;
+}
+
+.thirteen {
+  grid-area: thirteen;
+  padding: 0;
+}
+
+.fourteen {
+  grid-area: fourteen;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.fifteen {
+  grid-area: fifteen;
+  padding: 10px;
+}
+
+.sixteen {
+  grid-area: sixteen;
+  padding: 10px;
+}
+
+.seventeen {
+  grid-area: seventeen;
+  padding: 0;
+}
+
+.eighteen {
+  grid-area: eighteen;
+  padding: 10px;
+}
+
+.audi-img {
+  width: 100%;
+  height: 100%;
+}
+
+.one-title {
+  text-align: left;
+  color: #a9a9a9;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.one-paragraph {
+  text-align: left;
+  width: 350px;
+  color: white;
+  position: relative;
+  top: 140px;
+  left: 15px;
+}
+
+.two-paragraph {
+  text-align: left;
+}
+
+.two-line {
+  position: relative;
+  border: none;
+  height: 1px;
+  background: #a9a9a9;
+}
+
+.two-title {
+  color: #4a2511;
+}
+
+.two-date {
+  color: #a9a9a9;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.two-text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.three-images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.three-img1 {
+  width: 240px;
+  height: 180px;
+}
+
+.three-img2 {
+  width: 240px;
+  height: 180px;
+}
+
+.three-text1 {
+  color: white;
+  position: relative;
+  top: 124px;
+}
+.three-text2 {
+  color: white;
+  position: relative;
+  top: 105px;
+}
+
+.four {
+  color: #4a2511;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.four-drivers {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.driver {
+  display: flex;
+  font-weight: bold;
+}
+
+.driver-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.driver-racer {
+  margin-bottom: 10px;
+}
+
+.driver-car {
+  color: #a9a9a9;
+  text-align: left;
+  font-size: 14px;
+}
+
+.five {
+  color: #4a2511;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.five-drivers {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.five-team {
+  display: flex;
+  align-items: flex-end;
+  font-weight: bold;
+}
+
+.driver-score {
+  font-weight: bold;
+}
+
+.six {
+  color: #4a2511;
+  text-align: left;
+}
+
+.six-component {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.seven-ad {
+  background-color: #a9a9a9;
+  height: 100%;
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nine {
+  color: #4a2511;
+  text-align: left;
+}
+
+.nine-title {
+  padding-bottom: 20px;
+}
+
+.nine-container {
+  background-color: gainsboro;
+  padding: 10px;
+}
+
+.nine-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nine-location {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.sub-location {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 14px;
+  color: #a9a9a9;
+}
+
+.nine-container2 {
+  margin-top: 20px;
+}
+
+.ten {
+  color: #4a2511;
+  text-align: left;
+}
+
+.qoute-component {
+  width: 100%;
+  padding: 0;
+}
+
+.qoute {
+  background-color: #532915;
+  padding: 30px;
+  text-align: left;
+}
+
+.qoute-title {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.qoute-paragraph {
+  color: silver;
+  margin-bottom: 20px;
+}
+
+.qoute-name {
+  color: skyblue;
+  font-weight: bold;
+}
+
+.tweets-component {
+  background-color: #00acee;
+  padding: 20px;
+  height: 970px;
+}
+
+.twitter {
+  text-align: left;
+}
+
+.twitter-title {
+  color: #4a2511;
+  margin-bottom: 20px;
+}
+
+.fourteen-component {
+  text-align: left;
+}
+
+.fourteen-title {
+  color: #4a2511;
+  margin-bottom: 20px;
+}
+
+.fourteen-container {
+  display: flex;
+}
+
+.fourteen-text {
+  text-align: left;
+}
+
+.f1driver-logo {
+  width: 250px;
+  height: 250px;
+}
+
+.fourteen-minitext {
+  color: #a9a9a9;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.fourteen-subtitle {
+  color: #4a2511;
+  margin-bottom: 10px;
+}
+
+.fourteen-content {
+  color: black;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.fourteen-readmore {
+  color: #a9a9a9;
+  font-size: 14px;
+  color: orangered;
+}
+
+.coachf1-img {
+  height: 100%;
+}
+
+.sixteen-title {
+  text-align: left;
+  color: #a9a9a9;
+  position: relative;
+  top: 10px;
+  left: 5px;
+}
+
+.sixteen-minititle {
+  text-align: left;
+  color: white;
+  position: relative;
+  top: 240px;
+  left: 5px;
+}
+
+.sixteen-subtitle {
+  text-align: left;
+  color: #a9a9a9;
+  font-size: 14px;
+  position: relative;
+  top: 240px;
+  left: 5px;
+}
+
+.seventeen-component {
+  background-color: #333333;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: left;
+  height: 260px;
+}
+
+.seventeen-title {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.seventeen-videos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.side-component3 {
+  position: relative;
+  bottom: 150px;
+  left: 476px;
+}
+
+.side-icon3 {
+  border: 2px solid #a9a9a9;
+  border-top-left-radius: 999px;
+  border-bottom-left-radius: 999px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #333333;
+  width: 40px;
+}
+
+.side-component2 {
+  position: relative;
+  bottom: 220px;
+  left: 471px;
+}
+
+.side-icon2 {
+  border: 2px solid #a9a9a9;
+  border-top-left-radius: 999px;
+  border-bottom-left-radius: 999px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 40px;
+}
+
+.side-component1 {
+  position: relative;
+  bottom: 240px;
+  left: 819px;
+}
+
+.side-icon1 {
+  border: 2px solid #a9a9a9;
+  border-top-left-radius: 999px;
+  border-bottom-left-radius: 999px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 40px;
+}
+
+.body-color {
+  height: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.color-brown {
+  background-color: #4a2511;
+  height: 10px;
+  width: 100%;
+}
+
+.color-orange {
+  background-color: orangered;
+  height: 10px;
+  width: 100%;
+}
+
+.color-yellow {
+  background-color: yellow;
+  height: 10px;
+  width: 100%;
+}

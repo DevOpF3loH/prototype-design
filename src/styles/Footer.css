@@ -1,0 +1,80 @@
+.footer-logo {
+  width: 300px;
+  height: 300px;
+}
+
+.footer-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  border: none;
+  outline: none;
+  background-color: white;
+  font-size: medium;
+  color: #4a2511;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.footer:active {
+  color: aqua;
+}
+
+.formula1-footer {
+  display: flex;
+  align-items: center;
+}
+
+.formula1-title {
+  color: #4a2511;
+  margin-bottom: 30px;
+}
+
+.series-title {
+  color: #4a2511;
+  margin-bottom: 30px;
+}
+
+.social-title {
+  color: #4a2511;
+  margin-bottom: 30px;
+}
+
+.formula1-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.formula1-container2 {
+  margin-top: 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.series-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.social-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.fl {
+  border-left: 1px solid #a9a9a9;
+  height: 200px;
+}
